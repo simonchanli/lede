@@ -17,10 +17,9 @@ Welcome to Lean's  git source of OpenWrt and packages
 3. ```git clone https://github.com/coolsnowwolf/lede``` 命令下载好源代码，然后 ```cd lede``` 进入目录
 
 4. 
-```./scripts/feeds update -a 
-   ./scripts/feeds install -a
-   make menuconfig
-```
+    ```./scripts/feeds update -a``` 
+    ```./scripts/feeds install -a```
+    ```make menuconfig```
 
 5. 最后选好你要的路由，输入 ```make -j1 V=s``` （-j1 后面是线程数。第一次编译推荐用单线程，国内请尽量全局科学上网）即可开始编译你要的固件了。
 
