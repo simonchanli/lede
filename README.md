@@ -17,3 +17,7 @@
 
 ### Make it
 ```make -j1 V=s```
+
+---
+
+插件及参考 by https://github.com/project-openwrt
